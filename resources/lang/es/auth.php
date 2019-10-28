@@ -13,7 +13,8 @@ return [
 	|
 	*/
 
-    'failed' => 'Las credenciales introducidas son incorrectas.',
+    'failed' => 'Matricula o Contraseña Incorrectas.',
     'throttle' => 'Demasiados intentos de acceso. Inténtelo de nuevo en :seconds segundos.',
 
 ];
+F

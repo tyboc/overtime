@@ -20,8 +20,13 @@ class CrearTablaUsuarioRol extends Migration
             $table->unsignedInteger('usuario_id');
             $table->foreign('usuario_id', 'fk_usuariorol_usuario')->references('id')->on('usuario')->onDelete('restrict')->onUpdate('restrict');
             
+            $table->boolean('estado');
+
+            $table->timestamps();
+
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_spanish_ci';
+            
         });
     }
 

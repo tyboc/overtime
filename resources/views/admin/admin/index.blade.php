@@ -1,10 +1,10 @@
 @extends("theme.$theme.layout")
 @section("titulo")
-Invitado
+Administrador
 @endsection
 
 @section('contenido')
 <div class="row">
-    <div class="col-lg-12">VIEW / INICIOBLADE.PHP</div>
+    <div class="col-lg-12">Bievenido Administrador</div>
 </div>
 @endsection 

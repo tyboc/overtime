@@ -18,6 +18,7 @@ class TablaPermisoSeeder extends Seeder
             ['Crear capturista','crear_capturista'],
             ['Crear invitado','crear_invitado']
         ];
+        
         foreach($permisos as list($nombre, $slug)){
             DB::table('permiso')->insert([
                 'nombre' => $nombre,
@@ -25,7 +26,6 @@ class TablaPermisoSeeder extends Seeder
                 'created_at' => Carbon::now()->format('Y-m-d H:i:s')
             ]);
         }unset($valor);
-        
         
     }
 }
